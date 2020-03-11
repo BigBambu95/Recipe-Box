@@ -1,0 +1,21 @@
+.recipe-list {
+  background: #4a69bd;
+  color: #fff;
+  border-radius: .5em;
+  text-align: left;
+  overflow: hidden;
+}
+
+.recipe-list__item {
+  padding: 1em;
+  cursor: pointer;
+  user-select: none;
+}
+
+.recipe-list__item:hover {
+  background: #6a89cc;
+}
+
+.recipe-list__item.active {
+  background: #6a89cc;
+}
